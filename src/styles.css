@@ -1,0 +1,45 @@
+.create-feed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.create-feed-form-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.create-feed-heading {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.editor-container {
+  position: relative;
+}
+
+.placeholder-image,
+.placeholder-image-label {
+  height: 200px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.placeholder-image-label {
+  cursor: pointer;
+}
+
+.create-feed-button {
+  margin-top: 20px;
+  align-self: center;
+}

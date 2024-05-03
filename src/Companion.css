@@ -1,0 +1,119 @@
+/* Companion.css */
+
+.companion-page {
+  display: flex;
+}
+
+.user-list {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.user-list h2 {
+  margin-bottom: 10px;
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list-item {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.user-list-item:hover {
+  background-color: #f0f0f0;
+}
+
+.user-list-item.selected {
+  background-color: #cfd8dc; /* Selected item color */
+}
+
+.online, .offline {
+  margin-left: 10px;
+  color: #666;
+}
+
+.conversation {
+  flex: 2;
+  padding: 20px;
+}
+
+.conversation h2 {
+  margin-bottom: 10px;
+}
+
+.conversation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message {
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.even {
+  background-color: #f0f0f0; /* Light background color for even messages */
+}
+
+.odd {
+  background-color: #e0e0e0; /* Lighter background color for odd messages */
+}
+
+.username {
+  font-weight: bold;
+}
+
+.message-text {
+  margin-top: 5px;
+}
+
+
+.conversation-container {
+  max-height: 300px; /* Set the maximum height for the conversation container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-bottom: 50px; /* Space for the input container */
+  width: 50%;
+}
+
+.input-container {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.conversation-container {
+  display: none;
+}
+
+.conversation-container.visible {
+  display: block;
+}
